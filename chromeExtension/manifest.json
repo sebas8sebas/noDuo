@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "No Duo",
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://*.duosecurity.com/*"
+          ],
+          "js": ["noDuo.js"],
+          "all_frames": true
+        }
+      ],
+
+    "permissions": [
+      "http://localhost:5005/"
+    ],
+
+    "icons": { "32": "icon.png"}
+}
+
+
