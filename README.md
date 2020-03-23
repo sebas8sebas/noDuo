@@ -12,5 +12,5 @@ If you are interested in using this tool, read the following:
 - Go to chrome://extensions/', turn on developer mode, click on “load unpacked” and select the directory called “chromeExtension”. 
 -	Create a Google Voice account and make sure you set it up to receive your text messages in your email. Make sure you add this number to Duo Security.
 -	Modify the app.py file to contain the Gmail credentials associated with your Google Voice number. You’ll need to turn on <a href='https://www.google.com/settings/security/lesssecureapps'> access to less secure apps </a>, so it’s not recommended to use your main email for this.
--	For convenience, make sure you are running the Python Server on the background. 
+-	For convenience, make sure you are running the Python server on the background. 
 
